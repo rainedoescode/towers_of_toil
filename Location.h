@@ -1,4 +1,4 @@
-//Trevor Adams, taadams1@dmacc.edu, 4/19/19
+//Raine Adams, rainedoescode@gmail.com, 2021-7-25
 //Location class for text based adventure game
 //stores place name, short and long descriptions, coordinates, visited flag
 

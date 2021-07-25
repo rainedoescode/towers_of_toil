@@ -1,4 +1,4 @@
-//Trevor Adams, taadams1@dmacc.edu, 4/19/19
+//Raine Adams, rainedoescode@gmail.com, 2021-7-25
 //Text based adventure game
 
 #include <iostream>
