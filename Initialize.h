@@ -13,8 +13,9 @@ public:
 	~Initialize();
 
 private:
-	std::string shortDescs[16];
-
+	std::string shortDescs[17];
+	std::string longDescs[17];
+	std::string examineText[17];
 };
 
 Initialize::Initialize()
