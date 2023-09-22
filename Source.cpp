@@ -13,7 +13,7 @@ enum difficulty { hard = 30, normal = 45, easy = 60}; // time given to the playe
 
 //struct for items in game
 struct Item {
-	int itemY, itemX; //item location, set to -1,-1 if in inventory
+	int itemX, itemY; //item location, set to -1,-1 if in inventory
 	std::string name; //item name
 	std::string itemDesc; //item description
 	int counter = 0; //counter for special cases
@@ -622,7 +622,7 @@ int main() {
 
 				std::this_thread::sleep_for(std::chrono::milliseconds(3000));
 
-				char choice = '0';
+				choice = '0';
 				std::cout << "\n\n\t\tGAME OVER" << std::endl;
 				validChoice = false;
 				while (!validChoice) {
@@ -692,7 +692,6 @@ int main() {
 	}// end game loop
 
 	return 0;
-
 }
 
 std::string mood(int lvl) {
